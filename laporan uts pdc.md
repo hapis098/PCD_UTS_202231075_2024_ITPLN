@@ -16,10 +16,10 @@ import matplotlib.pyplot as plt
 
 img = cv2.imread('citrahafidz.jpg')
 
-#### Gambar dengan nama 'citraBagas.jpg' dibaca menggunakan OpenCV dan disimpan dalam variabel gambar.
+#### Gambar dengan nama 'citrahsfidz.jpg' dibaca menggunakan OpenCV dan disimpan dalam variabel gambar.
 
 ### 3. Ubah Warna Gambar ke BGR dan RGB:
-img_RGB = cv2.cvtColor(gambar, cv2.COLOR_BGR2RGB)
+img_RGB = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 
 #### Gambar diubah ke skema warna RGB menggunakan OpenCV. Konversi ini penting karena OpenCV menggunakan skema warna BGR secara default, sedangkan Matplotlib menggunakan skema warna RGB.
 
