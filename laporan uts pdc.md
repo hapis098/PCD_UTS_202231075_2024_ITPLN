@@ -113,9 +113,9 @@ import matplotlib.pyplot as plt
 #### Pada tahap ini, kita mengimpor pustaka yang diperlukan. cv2 untuk pengolahan gambar dan visi komputer, numpy untuk manipulasi array, dan matplotlib.pyplot untuk visualisasi data.
 
 ### 2. Baca Gambar:
-image = cv2.imread('citraBagas.jpg')
+image = cv2.imread('citrahafidz.jpg')
 
-#### Gambar dengan nama 'citraBagas.jpg' dibaca menggunakan OpenCV (cv2.imread) dan disimpan dalam variabel gambar.
+#### Gambar dengan nama 'citrahafidz.jpg' dibaca menggunakan OpenCV (cv2.imread) dan disimpan dalam variabel gambar.
 
 ### 3. Ubah Warna Gambar ke Ruang Warna HSV:
 hsv = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
